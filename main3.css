@@ -66,11 +66,7 @@ body
     align-items: center;
     width:18vw;
     height:17vh;
-
     margin-top: 4rem;
-   
-
-   
 
 }
 .login-form
@@ -254,4 +250,32 @@ body
 }
 .registrate a:hover{
     text-decoration: underline;
+}
+.logof 
+{
+    width: 3rem;
+}
+@media only screen and (max-width: 1534px)
+{
+    .login-container
+    {
+        margin: 0;
+        width:50vw;
+    }
+    .login-form
+    {
+        width:40vw;
+    }
+}
+@media only screen and (max-width: 1314px)
+{
+    .login-container
+    {
+        margin: 0;
+        width:50vw;
+    }
+    .login-form
+    {
+        width:50vw;
+    }
 }
