@@ -11,13 +11,10 @@ html
     font-family: 'Roboto', sans-serif;;
     font-size: 62.5%;
 
-}
-body
-{
-    display: flex;
-    flex-wrap: wrap;
 
 }
+
+
 .login
 {
 
@@ -31,7 +28,7 @@ body
 }
 .header{
     
-    width: 100%;
+    width: 90%;
     height: 10rem;
 }
 
@@ -66,7 +63,7 @@ body
     align-items: center;
     width:18vw;
     height:17vh;
-    margin-top: 4rem;
+    
 
 }
 .login-form
@@ -159,7 +156,7 @@ body
     height: 9vh;
     font-size: 2rem;
     color:white;
-    width: 100vw;
+    width: 100%;
     display: flex;
     flex-wrap: wrap; 
    
@@ -181,12 +178,8 @@ body
     background-color:rgba(224, 137, 224, 0.246);
     
 }
-.tutorial
-{
-    display: flex;
-    width: 40%;
 
-}
+
 .logof 
 {
     width: 3rem;
@@ -195,7 +188,7 @@ body
 {
     
     
-    width: 70%;
+    width: 50%;
     height: 100%;
     text-align: center;
     font-size: 2rem;
@@ -205,19 +198,26 @@ body
     top: 1rem;
 }
 .registro img {
+    
+
+    cursor: pointer;
     display: flex;
     text-align: left;
-    cursor: pointer;
-    
+    border: 1px solid red;
+    width: 10%;
+
 
 }
 .registro p {
     display:flex;
     text-align: left;
+    border-bottom: 1px solid red;
     cursor: pointer;
     width: 90%;
     padding-top: .5rem;
     padding-left: .6rem;    
+  
+    font-size: 1.9rem;   
 }
 
 .registrate
@@ -243,7 +243,7 @@ body
 }
 .registrate a
 {
-    display:flex;
+
     color: white;
     text-decoration: none;
 
@@ -253,18 +253,27 @@ body
 }
 .logof 
 {
-    width: 3rem;
+    width: 2rem;
 }
 @media only screen and (max-width: 1534px)
 {
     .login-container
     {
         margin: 0;
-        width:50vw;
+        width:40vw;
     }
     .login-form
     {
         width:40vw;
+    }
+}
+@media only screen and (max-width:1424)
+{
+    html, body
+    {
+        max-width: 93vw;
+        min-height: 100vh;
+        border: 10px solid red;
     }
 }
 @media only screen and (max-width: 1314px)
@@ -272,10 +281,122 @@ body
     .login-container
     {
         margin: 0;
-        width:50vw;
+        width:40vw;
     }
     .login-form
     {
         width:50vw;
     }
+    html
+    {
+        
+       
+    }
 }
+@media only screen and (max-width: 1060px)
+{
+    .login-container
+    {
+       
+        width:50vw;
+    }
+    .login-form
+    {
+        width:60vw;
+    }
+    .h2
+    {
+       
+       width: 40vw;
+    }
+}
+@media only screen and (max-width: 900px)
+{
+    .login-container
+    {
+        
+        width:60vw;
+    }
+    .login__container--remember-me
+    {
+        width: 80%;
+    } 
+}  
+@media only screen and (max-width: 766px)
+{
+    .login-container
+    {
+        
+        width:80vw;
+    }
+    .login__container--remember-me
+    {
+        width: 80%;
+    } 
+    .login-form
+    {
+        width:70vw;
+    }
+}
+@media only screen and (max-width: 766px)
+{   
+    .login-container
+    {
+        
+        width:90vw;
+    }
+    .login-form
+    {
+        width:80vw;
+    }
+}
+@media only screen and (max-width: 576px)
+{   
+    .login-container
+    {
+        margin: 0 20rem;
+        width:100vw;
+    }
+    .login-form
+    {
+        width:90vw;
+    }
+}
+@media only screen and (max-width: 576px)
+{   
+    .login-container
+    {
+        margin: 0 20rem;
+        width:100vw;
+    }
+    .login__container--remember-me
+    {
+        width: 90%;
+    } 
+    .login-form
+    {
+        width:90vw;
+    }
+    .registro
+    {
+        width:80%;
+    }
+    .footer
+    {
+        font-size: 1.4rem;
+    }
+    .h2
+    {
+        width:70vw;
+    }
+    .input
+    {
+        width:80%;
+        height:40%;
+        margin-bottom: 5rem;
+    }
+    .registro p 
+    {
+        width: 40%;
+    }
+}                
