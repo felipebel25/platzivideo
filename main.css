@@ -5,7 +5,7 @@
   align-items: center;
   flex-direction: column;
   margin-bottom: 3rem;
-  border: 1px solid red;
+ 
 }
 
 .main__title {
@@ -44,7 +44,7 @@
 
 .carousel {
   padding: 3rem;
-  border: 1px solid red;
+
   position: relative;
 }
 
@@ -105,7 +105,7 @@
 
 .textos {
   position: relative;
-  border: 5px solid red;
+ 
   display: flex;
   flex-direction: column;
   opacity: 0;
@@ -113,23 +113,36 @@
 
 .carousel-item__p {
   font-size: 1.6rem;
-  color: black;
+  color: green;
   padding: 0.5 1rem;
   position: relative;
   bottom: 9rem;
 }
 
 .lista-h2 {
-  border: 1px solid red;
+
   display: flex;
   height: 7rem;
   align-items: center;
-  padding: 3rem;
+  margin-left: 2rem;
 }
 
 .lista-h2 h2 {
   color: pink;
   font-size: 3rem;
+  padding-left: 2rem;
+}
+.lista-h2-1{
+  display: flex;
+  height: 7rem;
+  align-items: center;
+  margin-left: 5rem;
+}
+.lista-h2-1 h2
+{
+  color: pink;
+  font-size: 3rem;
+  padding-left: 2rem;
 }
 
 /*# sourceMappingURL=main.scss.map */
