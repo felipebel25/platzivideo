@@ -180,10 +180,7 @@ html
 }
 
 
-.logof 
-{
-    width: 3rem;
-}
+
 .registro
 {
     
@@ -203,7 +200,7 @@ html
     cursor: pointer;
     display: flex;
     text-align: left;
-    border: 1px solid red;
+  
     width: 10%;
 
 
@@ -211,7 +208,7 @@ html
 .registro p {
     display:flex;
     text-align: left;
-    border-bottom: 1px solid red;
+  
     cursor: pointer;
     width: 90%;
     padding-top: .5rem;
@@ -253,7 +250,7 @@ html
 }
 .logof 
 {
-    width: 2rem;
+    width: 0.2rem;
 }
 @media only screen and (max-width: 1534px)
 {
@@ -409,10 +406,11 @@ html
     {
         width:100%;
         margin:0 0;
-        height:14   0vh;
+        height:140vh;
     }
     .login__container--remember-me
     {
         width: 100%;
     } 
-}      
+}
+  
