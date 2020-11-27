@@ -1,4 +1,5 @@
 # Proyecto platzi video
-[hola](https://felipebel25.github.io/platzivideo/index.html)
-[hola](https://felipebel25.github.io/platzivideo/login.html)
-[hola](https://felipebel25.github.io/platzivideo/register.html)
+[carrusel](https://felipebel25.github.io/platzivideo/index.html)<br>
+![screenshot](http://imgfz.com/i/ZrQmiSb.png)
+[login](https://felipebel25.github.io/platzivideo/login.html)
+[register](https://felipebel25.github.io/platzivideo/register.html)
