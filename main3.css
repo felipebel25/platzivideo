@@ -392,7 +392,7 @@ html
     .input
     {
         width:80%;
-        height:40%;
+        height:70%;
         margin-bottom: 5rem;
     }
     .registro p 
@@ -406,11 +406,25 @@ html
     {
         width:100%;
         margin:0 0;
-        height:140vh;
+        height:150vh;
+    }
+    .input{
+        height: 100%;
     }
     .login__container--remember-me
     {
         width: 100%;
     } 
+    .header
+    {
+        display:none;
+    }
+    .logof img{
+        width:10rem;
+    }
+    .footer
+    {
+        display:none;
+    }
 }
   
