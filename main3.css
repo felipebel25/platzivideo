@@ -399,4 +399,16 @@ html
     {
         width: 40%;
     }
-}                
+}       
+@media only screen and (max-width: 400px)
+{   
+    .login-container
+    {
+        width:100%;
+        margin:0 0;
+    }
+    .login__container--remember-me
+    {
+        width: 100%;
+    } 
+}      
